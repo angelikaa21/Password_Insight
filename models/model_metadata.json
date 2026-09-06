@@ -1,0 +1,43 @@
+{
+  "model_type": "RandomForestClassifier",
+  "purpose": "RESEARCH_MODEL",
+  "dataset": "PWLDS",
+  "dataset_file_sha256": "08651977bc2579ee2c28e037c94e5e797bcf79c970bfe091d8ab62b55509f34e",
+  "sample_count_after_cleaning": 99799,
+  "training_rows_for_deployment": 84829,
+  "test_rows_reserved": 14970,
+  "seeds": [
+    20260902,
+    20260903,
+    20260904
+  ],
+  "feature_names": [
+    "length",
+    "unique_count",
+    "unique_ratio",
+    "lowercase_count",
+    "uppercase_count",
+    "digit_count",
+    "special_count",
+    "category_count",
+    "lowercase_ratio",
+    "uppercase_ratio",
+    "digit_ratio",
+    "special_ratio",
+    "repeated_char_count",
+    "max_char_run",
+    "sequence_length",
+    "keyboard_sequence_length",
+    "repeated_fragment_count",
+    "common_pattern_count",
+    "charset_entropy"
+  ],
+  "parameters": {
+    "n_estimators": 160,
+    "max_depth": 20,
+    "min_samples_leaf": 2
+  },
+  "comparison_best_model": "xgboost",
+  "deployed_model": "random_forest",
+  "deployment_reason": "Główny model badany i model obsługiwany przez TreeSHAP"
+}

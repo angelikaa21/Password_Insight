@@ -1,0 +1,6 @@
+PASSWORD INSIGHT 1.0
+
+Status: wersja finalna systemu badawczego
+Model: RandomForestClassifier
+Zbiór treningowy: PWLDS, próbka po oczyszczeniu 99 799 rekordów
+Zakres: klasyfikacja siły, weryfikacja HIBP, agregacja ryzyka i wyjaśnienia SHAP
