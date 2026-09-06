@@ -16,7 +16,7 @@ hasła w HIBP Pwned Passwords, jawną agregację ryzyka oraz lokalne wyjaśnieni
 
 ## Uruchomienie w Windows
 
-1. Zainstaluj 64-bitowy Python 3.11 lub 3.12 i zaznacz `Add Python to PATH`.
+1. Zainstaluj 64-bitowy Python 3.11+ i zaznacz `Add Python to PATH`.
 2. Rozpakuj cały katalog projektu.
 3. Uruchom `start_windows.bat`.
 4. Przy pierwszym uruchomieniu zaczekaj na instalację wymaganych bibliotek.
